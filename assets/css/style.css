@@ -48,15 +48,6 @@ section.main span {
     font-weight: bold;
 }
 
-section.main p {
-    position: relative;
-    top: 50%;
-    font-size: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    color: #57f287;
-    animation: typewriter 2s steps(44) 1s 1 normal both;
-}
 section.main text-js {
     position: relative;
     top: 50%;
@@ -66,13 +57,6 @@ section.main text-js {
     color: #57f287;
     animation: typewriter 2s steps(44) 1s 1 normal both;
 }
-
-
-@media screen and (max-width: 400px) {
-    section.main p {
-        font-size: x-small;
-    }
-  }
 
   .container{
     display: inline-block;
